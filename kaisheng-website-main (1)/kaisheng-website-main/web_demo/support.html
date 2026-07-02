@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>技术支持 - 开晟精密科技</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; font-family:"Microsoft YaHei",sans-serif; }
+        .header { background:#1d2939; color:white; padding:20px 50px; display:flex; justify-content:space-between; align-items:center; }
+        .logo { font-size:24px; font-weight:bold; }
+        .nav a { color:white; margin-left:30px; text-decoration:none; }
+        .nav a:hover { color:#4d9eff; }
+        .content { max-width:900px; margin:60px auto; padding:40px; background:#f9f9f9; border-radius:10px; }
+        .content h2 { margin-bottom:20px; }
+        
+        /* 表单样式（和你网站风格统一） */
+        .form-item {
+            margin-bottom: 18px;
+        }
+        .form-item label {
+            display: block;
+            font-size: 15px;
+            margin-bottom: 6px;
+            color: #333;
+        }
+        .form-item input,
+        .form-item textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+        .form-item textarea {
+            height: 120px;
+            resize: none;
+        }
+        .submit-btn {
+            background: #1d2939;
+            color: #fff;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        .submit-btn:hover {
+            background: #2d3b4f;
+        }
+
+        .footer { background:#1d2939; color:white; text-align:center; padding:30px; margin-top:50px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">开晟（精密科技）</div>
+        <div class="nav">
+            <a href="index.html">首页</a>
+            <a href="product.html">产品介绍</a>
+            <a href="support.html">技术支持</a>
+            <a href="about.html">关于我们</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>技术支持 - 需求提交</h2>
+        <p style="margin-bottom:25px;">请填写以下信息，我们将尽快与您联系！</p>
+
+        <form>
+            <div class="form-item">
+                <label>您的姓名</label>
+                <input type="text" placeholder="请输入姓名">
+            </div>
+
+            <div class="form-item">
+                <label>联系电话</label>
+                <input type="text" placeholder="请输入电话">
+            </div>
+
+            <div class="form-item">
+                <label>电子邮箱</label>
+                <input type="text" placeholder="请输入邮箱">
+            </div>
+
+            <div class="form-item">
+                <label>公司名称</label>
+                <input type="text" placeholder="请输入公司名称">
+            </div>
+
+            <div class="form-item">
+                <label>所需产品</label>
+                <input type="text" placeholder="例如：6轴数控系统、机械手控制器">
+            </div>
+
+            <div class="form-item">
+                <label>需求说明 / 留言</label>
+                <textarea placeholder="请简单描述您的需求"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">提交需求</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>开晟（精密科技）© 2025</p>
+    </div>
+</body>
+</html>

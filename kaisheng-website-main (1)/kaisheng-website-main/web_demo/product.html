@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品介绍 - 开晟精密科技</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; font-family:"Microsoft YaHei",sans-serif; }
+        .header { background:#1d2939; color:white; padding:20px 50px; display:flex; justify-content:space-between; align-items:center; }
+        .logo { font-size:24px; font-weight:bold; }
+        .nav a { color:white; margin-left:30px; text-decoration:none; }
+        .nav a:hover { color:#4d9eff; }
+        .content { max-width:900px; margin:60px auto; padding:40px; background:#f9f9f9; border-radius:10px; }
+        .content h2 { margin-bottom:30px; }
+        .product-item{
+            margin-bottom:45px;
+            padding-bottom:30px;
+            border-bottom:1px solid #ddd;
+            display:flex;
+            gap:25px;
+        }
+        .product-item:last-child{border:none; margin-bottom:0; padding-bottom:0;}
+        /* 左侧图片占位框 */
+        .img-box{
+            width:260px;
+            height:220px;
+            border:1px solid #999;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            color:#666;
+            font-size:18px;
+            flex-shrink:0;
+        }
+        .pro-text{
+            flex:1;
+        }
+        .pro-text h3{
+            color:#1d2939;
+            margin-bottom:12px;
+        }
+        .content p { font-size:16px; line-height:1.8; color:#333; margin-bottom:8px; }
+        .footer { background:#1d2939; color:white; text-align:center; padding:30px; margin-top:50px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">开晟（精密科技）</div>
+        <div class="nav">
+            <a href="index.html">首页</a>
+            <a href="product.html">产品介绍</a>
+            <a href="support.html">技术支持</a>
+            <a href="about.html">关于我们</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>主营产品</h2>
+
+        <div class="product-item">
+            <div class="img-box">图片</div>
+            <div class="pro-text">
+                <h3>五轴联动义齿精加工切削机</h3>
+                <p>自研五轴全闭环数控设备，搭载神盾AI控制系统，加工精度可达微米级，适配氧化锆、PEEK、合金等齿科原料，用于义齿冠桥、种植基台批量精加工，可长时间连续量产。</p>
+            </div>
+        </div>
+
+        <div class="product-item">
+            <div class="img-box">图片</div>
+            <div class="pro-text">
+                <h3>智能恒温箱控制器</h3>
+                <p>高精度PID温控仪表，控温精准，支持多段程序控温、超温报警与485通讯，适配各类试验恒温箱、培养箱，广泛用于生物、电子老化等温控场景。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>开晟（精密科技）© 2025</p>
+    </div>
+</body>
+</html>
